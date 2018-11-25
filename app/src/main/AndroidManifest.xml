@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.ics115project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Project"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Hub">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LearnHub" />
+        <activity android:name=".TestHub" />
+        <activity android:name=".LearnEarth" />
+        <activity android:name=".LearnTyphoon" />
+        <activity android:name=".LearnFlashFlood" />
+        <activity android:name=".LearnLandslide" />
+        <activity android:name=".LearnTsunami" />
+        <activity android:name=".TestEarthQ1" />
+        <activity android:name=".TestEarthQ2" />
+        <activity android:name=".TestEarthQ3" />
+        <activity android:name=".TestEarthQ4" />
+        <activity android:name=".TestEarthQ5" />
+        <activity android:name=".TestEarthFinish" />
+        <activity android:name=".TestLandQ1" />
+        <activity android:name=".TestLandQ2" />
+        <activity android:name=".TestLandQ3" />
+        <activity android:name=".TestLandQ4" />
+        <activity android:name=".TestLandQ5" />
+        <activity android:name=".TestLandFinish" />
+        <activity android:name=".TestTsunamiQ1" />
+        <activity android:name=".TestTsunamiQ2" />
+        <activity android:name=".TestTsunamiQ3" />
+        <activity android:name=".TestTsunamiQ4" />
+        <activity android:name=".TestTsunamiQ5" />
+        <activity android:name=".TestTsunamiFinish" />
+        <activity android:name=".TestTyphoonQ1" />
+        <activity android:name=".TestTyphoonQ2" />
+        <activity android:name=".TestTyphoonQ3" />
+        <activity android:name=".TestTyphoonQ4" />
+        <activity android:name=".TestTyphoonQ5" />
+        <activity android:name=".TestTyphoonFinish" />
+        <activity android:name=".TestFlashQ1" />
+        <activity android:name=".TestFlashQ2" />
+        <activity android:name=".TestFlashQ3" />
+        <activity android:name=".TestFlashQ4" />
+        <activity android:name=".TestFlashQ5" />
+        <activity android:name=".TestFlashFinish"></activity>
+    </application>
+
+</manifest>
