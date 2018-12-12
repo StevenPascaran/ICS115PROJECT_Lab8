@@ -1,16 +1,14 @@
 package example.com.ics115project;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import static android.graphics.Color.GREEN;
 import static android.graphics.Color.RED;
-import static android.graphics.Color.WHITE;
 
 public class TestTsunamiQ5 extends AppCompatActivity {
     Button A1,A2,A3,A4,Next;
@@ -71,7 +69,7 @@ public class TestTsunamiQ5 extends AppCompatActivity {
         });
         Next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),TestTsunamiQ5.class);
+                Intent i = new Intent(getApplicationContext(),TestTsunamiFinish.class);
                 startActivity(i);
             }
         });
